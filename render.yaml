@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: gofile-discord-embedder
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start

@@ -1,0 +1,16 @@
+{
+  "name": "gofile-discord-embedder",
+  "version": "1.0.0",
+  "description": "Proxy GoFile videos with OpenGraph tags for Discord embedding",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "express": "^4.21.0"
+  }
+}
